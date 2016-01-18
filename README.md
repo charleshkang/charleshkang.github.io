@@ -1,7 +1,7 @@
 # My Professional Website
 
 
-<p>Created using Bootstrap and the wonderful base theme, <a href="http://startbootstrap.com/template-overviews/grayscale/">Grayscale</a>, I made my first professional website.</p>
+<p>Created using <a href="http://getbootstrap.com/">Bootstrap</a> and the wonderful base theme, <a href="http://startbootstrap.com/template-overviews/grayscale/">Grayscale</a>, I made my first professional website.</p>
 
 <p>This also serves as my first but certainly not last, passion project for the Access Code 2.2 program.</p>
 
