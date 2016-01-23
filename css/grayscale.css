@@ -12,12 +12,17 @@
 }
 #connectHeader {
   position: relative;
-  bottom: 150px;
+  bottom: -30px;
 }
 #connectBlurb {
   position: relative;
-  bottom: 120px;
+  bottom: -20px;
 }
+#buttonSpacing {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 body {
   width: 100%;
   height: 100%;
@@ -62,7 +67,7 @@ a:hover, a:focus {
   font-weight: 400;
 }
 .navbar-custom {
-  right: -30px;
+  right: -15px;
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, .3);
   text-transform: uppercase;
@@ -82,9 +87,11 @@ a:hover, a:focus {
 }
 .navbar-custom .navbar-brand .navbar-toggle:focus, .navbar-custom .navbar-brand .navbar-toggle:active {
   outline: 0;
+  right: 50px;
 }
 .navbar-custom a {
   color: #fff;
+  right: 50px;
 }
 .navbar-custom .nav li a {
   -webkit-transition: background .3s ease-in-out;
@@ -211,10 +218,7 @@ a:hover, a:focus {
   .download-section {
     padding: 100px 0;
   }
-  #map {
-    height: 400px;
-    margin-top: 250px;
-  }
+
 }
 .btn {
   border-radius: 0;
@@ -236,31 +240,25 @@ a:hover, a:focus {
   color: #000;
   background-color: #42dca3;
 }
-ul.banner-social-buttons {
+#socialButtons {
+  bottom: 270px;
   margin-top: 0px;
   position: relative;
-  top: -550px;
 }
 @media(max-width:1199px) {
-  ul.banner-social-buttons {
+  #socialButtons {
     margin-top: 15px;
   }
 }
 @media(max-width:767px) {
-  ul.banner-social-buttons li {
+  #socialButtons div {
     display: block;
     margin-bottom: 20px;
     padding: 0;
   }
-  ul.banner-social-buttons li:last-child {
+  #socialButtons div:last-child {
     margin-bottom: 0;
   }
-}
-footer {
-  padding: 0px 0;
-}
-footer p {
-  margin: 0;
 }
 ::-moz-selection {
   text-shadow: none;
