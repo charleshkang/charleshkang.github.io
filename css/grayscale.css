@@ -67,8 +67,6 @@ a:hover, a:focus {
   font-weight: 400;
 }
 .navbar-custom {
-  right: -5px;
-  margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, .3);
   text-transform: uppercase;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -87,11 +85,9 @@ a:hover, a:focus {
 }
 .navbar-custom .navbar-brand .navbar-toggle:focus, .navbar-custom .navbar-brand .navbar-toggle:active {
   outline: 0;
-  right: 50px;
 }
 .navbar-custom a {
   color: #fff;
-  right: 50px;
 }
 .navbar-custom .nav li a {
   -webkit-transition: background .3s ease-in-out;
@@ -135,6 +131,7 @@ a:hover, a:focus {
 .intro {
   display: table;
   width: 100%;
+  float:right;
   height: auto;
   padding: 100px 0;
   text-align: center;
@@ -230,8 +227,8 @@ a:hover, a:focus {
   transition: all .3s ease-in-out;
 }
 .btn-default {
-  border: 1px solid #42dca3;
-  color: #42dca3;
+  border: 1px solid #FFF;
+  color: #FFF;
   background-color: transparent;
 }
 .btn-default:hover, .btn-default:focus {
@@ -241,7 +238,7 @@ a:hover, a:focus {
   background-color: #42dca3;
 }
 #socialButtons {
-  bottom: 270px;
+  bottom: 300px;
   margin-top: 0px;
   position: relative;
 }
