@@ -7,5 +7,3 @@
 
 <p>Photo of the mountains were taken by me, Charles Kang. Please feel free to share, use, and implement the photo yourself if you would like, just please remember to credit me!</p>
 
-
-*Please note that I have not optimized the site for mobile yet, so please visit the site on desktop to see correct formatting!*
