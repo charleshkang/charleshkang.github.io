@@ -28,3 +28,7 @@ footer {
   -moz-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
+
+.col-md-5 {
+  right: 100px;
+}
