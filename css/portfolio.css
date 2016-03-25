@@ -7,19 +7,19 @@
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
+
 footer {
-    margin: 50px 0;
+    margin: 20px;
 }
 
-.navbar-header {
-  text-align: left;
+.col-md-5 {
+  right: 100px;
 }
 
-.navbar-brand {
-
+#homeButton {
   text-align: right;
-  font-size: 17px;
-  padding-left: 1100px;
+  font-size: 20px;
+  left: 1050px;
   border-radius: 0;
   text-transform: uppercase;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -27,8 +27,4 @@ footer {
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
-}
-
-.col-md-5 {
-  right: 100px;
 }
