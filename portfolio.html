@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="Charles Kang" content="">
 
   <title>Portfolio</title>
 
@@ -24,23 +24,31 @@
 
 </head>
 
-<body>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
 
   <!-- Navigation -->
-  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
     <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+          <i class="fa fa-bars"></i>
         </button>
+        <a class="navbar-brand page-scroll" href="#page-top">
+        </a>
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
         <ul class="nav navbar-nav">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden">
+            <a href="#page-top"></a>
+          </li>
           <li>
-            <a id="homeButton" href="index.html">Home</a>
+            <a class="page-scroll" href="index.html">Home</a>
           </li>
         </ul>
+      </div>
       <!-- /.navbar-collapse -->
     </div>
     <!-- /.container -->
@@ -60,7 +68,7 @@
     <!-- Neverlate -->
     <div class="row">
       <div class="col-md-7">
-        <img id="appImages" src="img/neverlate.png" alt="Neverlate"/>
+        <img id="appImages" src="img/neverlate.png" alt="Neverlate" />
         </a>
       </div>
       <div class="col-md-5">
@@ -76,7 +84,7 @@
     <!-- Vimo -->
     <div class="row">
       <div class="col-md-7">
-        <img id="appImages" src="img/vimo.png" alt="Vimo"/>
+        <img id="appImages" src="img/vimo.png" alt="Vimo" />
         </a>
       </div>
       <div class="col-md-5">
@@ -92,7 +100,7 @@
     <!-- RideTracker -->
     <div class="row">
       <div class="col-md-7">
-        <img id="appImages" src="img/ridetracker.png" alt="RideTracker"/>
+        <img id="appImages" src="img/ridetracker.png" alt="RideTracker" />
         </a>
       </div>
       <div class="col-md-5">
@@ -112,6 +120,12 @@
 
   <!-- Bootstrap Core JavaScript -->
   <script src="js/bootstrap.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="js/jquery.easing.min.js"></script>
+
+  <!-- Custom Theme JavaScript -->
+  <script src="js/grayscale.js"></script>
 
 </body>
 

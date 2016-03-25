@@ -70,7 +70,6 @@ a:hover, a:focus {
   border-bottom: 1px solid rgba(255, 255, 255, .3);
   text-transform: uppercase;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #000;
 }
 .navbar-custom .navbar-brand {
   font-weight: 700;
@@ -81,7 +80,6 @@ a:hover, a:focus {
 .navbar-custom .navbar-brand .navbar-toggle {
   padding: 4px 6px;
   font-size: 16px;
-  color: #fff;
 }
 .navbar-custom .navbar-brand .navbar-toggle:focus, .navbar-custom .navbar-brand .navbar-toggle:active {
   outline: 0;
@@ -217,7 +215,6 @@ a:hover, a:focus {
   .download-section {
     padding: 100px 0;
   }
-
 }
 .btn {
   border-radius: 0;
