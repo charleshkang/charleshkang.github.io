@@ -111,7 +111,7 @@ a:hover, a:focus {
   background-color: rgba(255, 255, 255, .3);
 }
 .navbar-custom .nav li.active a:hover {
-  color: #fff;
+  color: #000;
 }
 @media(min-width:768px) {
   .navbar-custom {
