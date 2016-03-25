@@ -85,7 +85,7 @@ a:hover, a:focus {
   outline: 0;
 }
 .navbar-custom a {
-  color: #fff;
+  color: #000;
 }
 .navbar-custom .nav li a {
   -webkit-transition: background .3s ease-in-out;
