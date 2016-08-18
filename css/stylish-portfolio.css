@@ -247,9 +247,9 @@ hr.small {
     pointer-events: none;
 }
 
-/* Footer */
+/* Contact */
 
-.footer {
+.contact {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -257,7 +257,7 @@ hr.small {
   height: 60px;
 }
 
-#footer {
+#contact {
   background: #F9F9F9;
 }
 
